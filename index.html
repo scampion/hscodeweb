@@ -2,11 +2,19 @@
 <head>
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
     <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<form action="">
-    <input type="text" placeholder="custom text description">
-    <input type="submit">
-</form>
+
+<h1>Harmonized Code prediction</h1>
+<div class="row">
+    <form action="">
+        <input id="query" type="text" placeholder="custom text description">
+        <input type="button" onclick="update()" value="Compute">
+    </form>
+    <div class="result" id="result">
+    </div>
+
+</div>
 </body>
 </html>
