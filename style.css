@@ -22,6 +22,11 @@ h1 {
 
 }
 
+.row a {
+    color: white;
+}
+
+
 input[type=text] {
     width: 50%;
     padding: 15px 22px;
