@@ -69,3 +69,5 @@ function update(){
     compute(query);
 }
 
+// sparse parts for dishwashe machine
+//
