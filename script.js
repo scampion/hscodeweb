@@ -16,13 +16,14 @@ function argMax(array) {
 }
 
 async function load_model() {
-    const modelURL = './tfjs/model.json';
+    const modelURL = './tfjs/modelc3/model.json';
     const model = await tf.loadLayersModel(modelURL)
     return model;
 }
 
 var model = load_model();
 var vocab = JSON.parse(getJSON('./word_dict.json'));
+var labels = JSON.parse(getJSON('./tfjs/c3_label_decoder.json'));
 
 const input_dim = 321;
 
@@ -56,7 +57,7 @@ function compute(query){
         console.log(prediction);
         var c1 =  argMax(prediction.dataSync())
         var element = document.getElementById("result");
-        element.innerHTML = "" + c1 + " 00 00";
+        element.innerHTML = "" + labels[c1] ;
 
     }, function (err) {
         console.log(err);

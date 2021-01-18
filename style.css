@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 body {
     background: #1a1a1a;
@@ -15,7 +16,10 @@ h1 {
 }
 
 .row {
+    color: whitesmoke;
     text-align: center;
+    font-family: 'Lato', sans-serif;
+
 }
 
 input[type=text] {
@@ -29,7 +33,7 @@ input[type=text] {
 }
 
 input[type=button] {
-    width: 10%;
+    width: 15%;
     padding: 15px 22px;
     margin: 10px 5px;
     box-sizing: border-box;
