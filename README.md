@@ -12,4 +12,4 @@ This demonstrator run without server thanks to Tensorflow Javascript
 The dataset used to build de model is here : https://aws.amazon.com/marketplace/pp/prodview-stk4wn3mbhx24?ref_=srh_res_product_title#usage
 
 
-
+Sebastien Campion 
